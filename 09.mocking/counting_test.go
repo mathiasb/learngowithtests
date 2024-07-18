@@ -50,8 +50,8 @@ Go!`
 		if got != want {
 			t.Errorf("got %q, want %q", got, want)
 		}
-		if len(sleeper.Calls) != 7 {
-			t.Errorf("expected %d calls but got %v", 7, sleeper.Calls)
+		if len(sleeper.Calls) != 3 {
+			t.Errorf("expected %d calls but got %v", 3, sleeper.Calls)
 		}
 	})
 
